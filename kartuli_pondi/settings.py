@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'login.apps.LoginConfig',
     'vam.apps.VamConfig',
+    'members.app.MembersConfig',
+    'payments.app.PaymentsConfig',
 ]
 
 MIDDLEWARE = [
