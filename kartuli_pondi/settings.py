@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'vam.apps.VamConfig',
     'members.apps.MembersConfig',
     'payments.apps.PaymentsConfig',
+    'receipts.apps.ReceiptsConfig',
 ]
 
 MIDDLEWARE = [
