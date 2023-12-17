@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+
+def dashboard_page(request):
+    if not request.user.is_authenticated:
+        return redirect('login:login_page')
+    return render(request,"members/dashboard.html")
+
